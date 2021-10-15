@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "cy2 run --parallel --record --key somekey --ci-build-id hello-cypress"
+  },
+  "dependencies": {
+    "cy2": "^1.3.0",
+    "cypress": "^8.6.0"
+  }
+}
